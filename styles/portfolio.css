@@ -212,3 +212,103 @@ section .hot-sale {
     height: 300px;
     margin-top: 150px;
 }
+
+/* hot sale section end  */
+/* instagram section start */
+.instagram {
+    /* border: 1px solid black; */
+    margin: 150px 100px 25px 150px;
+    width: 1200px;
+    height: 580px;
+}
+
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.insta-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.insta-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+}
+
+.picture {
+    width: 280px;
+    height: 350px;
+}
+
+/* instagram section end */
+/* deals section style start */
+
+.deals {
+    border: 1px solid #FDCEDF;
+    margin: 150px 100px 25px 150px;
+    width: 1200px;
+    height: 380px;
+    background-image: url("../images/Rectangle 9.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.deals-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deals-form {
+    margin-top: 25px;
+    margin-left: 280px;
+}
+
+.deals-form #email {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 450px;
+    height: 33px;
+    padding: 5px 10px;
+
+}
+
+.deals-form #submit {
+    width: 150px;
+    height: 42px;
+    background-color: #E55473;
+    color: white;
+    font-weight: 600;
+    font-family: Lato;
+    border: 1px solid transparent;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+/* deals section style end */
